@@ -1,13 +1,13 @@
 body {
-    margin: 0;                  /*Sets the margin reference point to 0*/
+    margin: 0;
+
 }
 
 .logo{
     position: fixed;
     padding: 0;
     width: 100%;
-    margin-bottom: 20%;
-    margin-top: 0;
+    margin: 0;
     overflow: auto;
 }
 
@@ -16,8 +16,8 @@ body {
     list-style-type: none;
     position: fixed;
     padding: 0;                 /*No padding around list*/
-    margin-top: 25%;
-    width: 20%;                 /*List will protrude to right by 20% of page*/
+    margin-top: 200px;
+    width: 200px;                 /*List will protrude to right by 20% of page*/
     height: 100%;               /*List will take 100% of screen height*/
     overflow: auto;
 }
@@ -40,12 +40,14 @@ li a:hover:not(.active){
 }
 
 .content {
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 20%;
+    position: fixed;
     background: aliceblue;
-    height: 1000px;
+    margin-left: 200px;
+    margin-top: 200px;
+    height: 100%;
+    width: 100%;
     padding: 1px 16px;
+    overflow: auto;
 
 
 }
